@@ -1,14 +1,15 @@
-import { Container, Content } from './styles';
+import React from 'react';
+
 import Input from './components/Input';
 import Button from './components/Button';
+import Calculator from './components/Calculator';
+
+import { Container, Content, Row } from './styles';
 
 const App = () => {
   return (
     <Container>
-      <Content>
-        <Input />
-        <Button />
-      </Content>
+      <Calculator />
     </Container>
   );
 };
