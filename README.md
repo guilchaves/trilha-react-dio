@@ -4,13 +4,13 @@ Guia de referência dos cursos e projetos desenvolvidos na Trilha _React Develop
 
 ### Trilha React Developer - Digital Innovation One
 
-| Curso                             | Status Conclusão | Tempo    | Projeto                   | Certificado   |
-| --------------------------------- | ---------------- | -------- | ------------------------- | ------------- |
-| Fundamentos do React              | Cursando         | 11 horas | [desafio01-calculadora]   | [Certificado] |
-| Conceitos Básicos da Biblioteca   | Cursando         | 8 horas  | [desafio02-wiki]          | [Certificado] |
-| Ampliando o Conhecimento em React | Cursando         | 7 horas  | [desafio03-tela-cadastro] | [Certificado] |
-| React com TypeScript              | Cursando         | 4 horas  | [desafio04-tela-login]    | [Certificado] |
-| Conceitos Avançados do React      | Cursando         | 5 horas  | [desafio05-blog]          | [Certificado] |
+| Curso                             | Status Conclusão | Tempo    | Projeto                                                                                                 | Certificado   |
+| --------------------------------- | ---------------- | -------- | ------------------------------------------------------------------------------------------------------- | ------------- |
+| Fundamentos do React              | Cursando         | 11 horas | [desafio01-calculadora](https://github.com/guilchaves/trilha-react-dio/tree/main/desafio01-calculadora) | [Certificado] |
+| Conceitos Básicos da Biblioteca   | Cursando         | 8 horas  | desafio02-wiki                                                                                          | [Certificado] |
+| Ampliando o Conhecimento em React | Cursando         | 7 horas  | desafio03-tela-cadastro                                                                                 | [Certificado] |
+| React com TypeScript              | Cursando         | 4 horas  | desafio04-tela-login                                                                                    | [Certificado] |
+| Conceitos Avançados do React      | Cursando         | 5 horas  | desafio05-blog                                                                                          | [Certificado] |
 
 Certificado de conclusão: [Trilha React Developer]
 
