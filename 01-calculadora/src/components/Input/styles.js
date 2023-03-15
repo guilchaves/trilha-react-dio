@@ -18,6 +18,7 @@ export const InputContainer = styled.div`
     border: 0;
     display: flex;
     flex-direction: column;
+    direction: RTL;
 
     padding: 0 10px;
     font-size: 24px;
