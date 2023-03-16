@@ -9,7 +9,7 @@ Guia de referência dos cursos e projetos desenvolvidos na Trilha _React Develop
 | Fundamentos do React              | Concluído        | 11 horas | [01-calculadora](https://github.com/guilchaves/trilha-react-dio/tree/main/01-calculadora) | [Certificado](https://www.dio.me/certificate/3AA4C8A6/share) |
 | Conceitos Básicos da Biblioteca   | Concluído        | 8 horas  | [02-github-wiki](https://github.com/guilchaves/trilha-react-dio/tree/main/02-github-wiki) | [Certificado](https://www.dio.me/certificate/1D2EC782/share) |
 | Ampliando o Conhecimento em React | Cursando         | 7 horas  | desafio03-tela-cadastro                                                                   | Certificado                                                  |
-| React com TypeScript              | Concluído        | 4 horas  | [04-tela-login](https://github.com/guilchaves/trilha-react-dio/tree/main/04-login-form)   | Certificado                                                  |
+| React com TypeScript              | Concluído        | 4 horas  | [04-tela-login](https://github.com/guilchaves/trilha-react-dio/tree/main/04-login-form)   | [Certificado](https://www.dio.me/certificate/A3571922/share) |
 | Conceitos Avançados do React      | Cursando         | 5 horas  | desafio05-blog                                                                            | Certificado                                                  |
 
 Certificado de conclusão: [Trilha React Developer]
