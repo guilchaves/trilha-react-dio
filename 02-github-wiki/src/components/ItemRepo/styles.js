@@ -19,6 +19,7 @@ export const ItemContainer = styled.div`
     color: #6495ed;
     text-decoration: none;
     margin-top: 10px;
+    cursor: pointer;
   }
 
   a.remover {
