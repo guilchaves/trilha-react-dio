@@ -11,24 +11,28 @@ const App = () => {
   const [repos, setRepos] = useState([]);
 
   const handleSearchRepo = async () => {
-    const { data } = await api.get(`repos/${currentRepo}`);
+    try {
+      const { data } = await api.get(`repos/${currentRepo}`);
 
-    if (data.id) {
-      const alreadyFound = repos.find(repo => repos.id === data.id);
+      if (data.id) {
+        const alreadyFound = repos.find(repo => repos.id === data.id);
 
-      if (!alreadyFound) {
-        setRepos(prev => [...prev, data]);
-        setCurrentRepo('');
-        return;
+        if (!alreadyFound) {
+          setRepos(prev => [...prev, data]);
+          setCurrentRepo('');
+          return;
+        }
       }
+    } catch (err) {
+      console.log(err);
     }
 
     alert('Repositório não encontrado');
   };
 
-  //todo
   const handleRemoveRepo = id => {
-    console.log('Removendo registo', id);
+    const filteredId = repos.filter(repo => id !== repo.id);
+    setRepos(filteredId);
   };
 
   return (
@@ -37,7 +41,7 @@ const App = () => {
       <Input value={currentRepo} onChange={e => setCurrentRepo(e.target.value)} />
       <Button onClick={handleSearchRepo} />
       {repos.map(repo => (
-        <ItemRepo repo={repo} />
+        <ItemRepo repo={repo} handleRemoveRepo={handleRemoveRepo} />
       ))}
     </Container>
   );
