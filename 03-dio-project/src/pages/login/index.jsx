@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   return (
     <>
       <h1>Login</h1>
-      <button>Voltar para home</button>
+      <Link to="/">Voltar para home</Link>
     </>
   );
 };
